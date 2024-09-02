@@ -3,10 +3,10 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
-        System.out.println("Digite o primeiro número inteiro: ");
+        System.out.print("Digite o primeiro número inteiro: ");
         int n1 = ler.nextInt();
 
-        System.out.println("Digite o segundo número inteiro: ");
+        System.out.print("Digite o segundo número inteiro: ");
         int n2 = ler.nextInt();
 
         int soma = n1 + n2;
